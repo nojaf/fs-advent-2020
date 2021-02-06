@@ -8,7 +8,6 @@ module.exports = {
   },
   plugins: [
     '@snowpack/plugin-react-refresh', 
-    '@snowpack/plugin-dotenv',
     ['@snowpack/plugin-run-script', {
       "cmd": `docker exec -w \"${pwd}\" dotnet-container dotnet fable ../App/App.fsproj --outDir ./src/bin`,
       "watch": `docker exec -w \"${pwd}\" dotnet-container dotnet fable watch ../App/App.fsproj --outDir ./src/bin`,
@@ -16,23 +15,7 @@ module.exports = {
     }]
   
   ],
-  install: [
-    /* ... */
-  ],
-  installOptions: {
-    /* ... */
-  },
   devOptions: {
-    /* ... */
     output: "stream"
-  },
-  buildOptions: {
-    /*  */
-  },
-  proxy: {
-    /* ... */
-  },
-  alias: {
-    /* ... */
-  },
+  }
 };
