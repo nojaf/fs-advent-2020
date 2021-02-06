@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk:5.0-alpine
+FROM mcr.microsoft.com/dotnet/sdk:5.0-focal
 
 # NodeJS 14.X
 RUN curl -sL https://deb.nodesource.com/setup_14.x | bash
