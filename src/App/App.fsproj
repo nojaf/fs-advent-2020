@@ -10,7 +10,7 @@
 
   <ItemGroup>
     <PackageReference Include="Fable.React" Version="7.2.0" />
-    <PackageReference Include="Feliz.CompilerPlugins" Version="0.9.0" />
+    <PackageReference Include="Feliz.CompilerPlugins" Version="1.2.0" />
   </ItemGroup>
 
 </Project>
