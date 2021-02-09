@@ -5,7 +5,7 @@ import { Title } from "./bin/Library.js"
 
 ReactDOM.render(
   <React.StrictMode>
-    <Title name="nojaf" />
+    <Title name="Florian" />
   </React.StrictMode>,
   document.getElementById('root'),
 );
